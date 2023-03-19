@@ -26,7 +26,7 @@ has_toc: false
 Install one of these Kubernetes clusters and prepare it for installation of the {{site.data.keyword.edge_notm}} Cluster Agent:
 
 - Preparing an edge cluster
-  - [Install and configure a k3s edge cluster](./install_k3s_edge_cluster.md)
+  - [Install and configure a K3s edge cluster](./install_k3s_edge_cluster.md)
   - [Install and configure a microk8s edge cluster](./install_microk8s_edge_cluster.md) (for development and test, not recommended for production)
   - [Install an OCP edge cluster](./install_ocp_edge_cluster.md)
 - [Installing the Cluster Agent](edge_cluster_agent.md)
