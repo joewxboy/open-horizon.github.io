@@ -2,7 +2,7 @@
 
 copyright:
 years: 2022 - 2023
-lastupdated: "2023-03-18"
+lastupdated: "2023-03-19"
 title: "Installing the edge cluster agent"
 
 parent: Edge clusters
@@ -39,7 +39,7 @@ This content provides instructions on installing the cluster agent on common Kub
 Begin by installing the {{site.data.keyword.edge_notm}} agent on one of these types of Kubernetes edge clusters:
 
 * [Installing agent on {{site.data.keyword.ocp}} Kubernetes edge cluster](#install_kube)
-* [Installing agent on k3s and microk8s edge clusters](#install_lite)
+* [Installing agent on K3s and microk8s edge clusters](#install_lite)
 
 Then, deploy an edge service to your edge cluster:
 
@@ -266,7 +266,7 @@ This content describes how to install the {{site.data.keyword.ieam}} agent on [K
 
 4. The **agent-install.sh** script will store the {{site.data.keyword.ieam}} agent in the edge cluster image registry. Set the full image path (minus the tag) that should be used. For example:
 
-   * On k3s:
+   * On K3s:
 
       ```bash
       REGISTRY_ENDPOINT=$(kubectl get service docker-registry-service | grep docker-registry-service | awk '{print $3;}'):5000
@@ -285,7 +285,7 @@ This content describes how to install the {{site.data.keyword.ieam}} agent on [K
 
 5. Instruct **agent-install.sh** to use the default storage class:
 
-   * On k3s:
+   * On K3s:
 
       ```bash
       export EDGE_CLUSTER_STORAGE_CLASS=local-path
