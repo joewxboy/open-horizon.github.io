@@ -1,1 +1,0 @@
-{"id":"af4dd62f-fc64-4b3e-be31-4ac527a087b3","ts":"2026-01-30T15:39:15.342Z","path":"/Users/josephapearson/dev/open-horizon.github.io/AGENTS.md","version":"1.0.0","taskID":"48b6e5bf-779a-4bde-87aa-9dc132e1c447"}
