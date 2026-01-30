@@ -240,6 +240,13 @@ has_toc: false     # enable/disable table of contents
 - **Commit messages**: Descriptive but concise, focus on "what" and "why"
 - **Atomic commits**: One logical change per commit
 - **Branch naming**: `issue-###` or `feature/descriptive-name`
+- **Protected source directories**: Never commit changes to files in directories that are sourced from other repositories:
+  - `docs/anax/docs/` (sourced from `open-horizon/anax`)
+  - `docs/mgmt-hub/docs/` (sourced from `open-horizon/devops`)
+  - `docs/kubearmor-integration/docs/` (sourced from `open-horizon/kubearmor-integration`)
+  - `docs/exchange-api/docs/` (sourced from `open-horizon/exchange-api`)
+  - `docs/fdo/docs/` (sourced from `open-horizon/FDO-support`)
+  - Changes to these files must be made in their originating repositories and will be automatically copied via GitHub Actions workflows
 
 #### Pull Request Process
 
