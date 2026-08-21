@@ -1,12 +1,11 @@
 ---
-copyright:
-years: 2021 - 2024
-lastupdated: "2024-09-27"
+copyright: Contributors to the Open Horizon project
+years: 2021 - 2026
+lastupdated: 2026-08-20
 layout: page
-title: "Quick Start"
+title: Quick Start
 description: "A guide to get you using Open Horizon in minutes."
-
-nav_order: 2
+nav_order: 4
 has_children: true
 has_toc: false
 ---

@@ -3,9 +3,9 @@ copyright: Contributors to the Open Horizon project
 years: 2019 - 2026
 title: Components
 description: Documentation for Components
-lastupdated: 2025-05-03
+lastupdated: 2026-08-21
 parent: Overview of Open Horizon
-nav_bar: 1
+nav_order: 2
 ---
 
 {:new_window: target="blank"}
